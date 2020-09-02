@@ -41,7 +41,7 @@ module.exports = class HelpCommand extends Command {
         .setTitle(`Command: \`${command.name}\``)
         .setThumbnail('https://cdn.discordapp.com/icons/740991579342503936/9fedf3b4af21176bb9b400150b33ff14.webp?size=2048')
         .setDescription(command.description)
-        .addField('Usage', `\`${prefix}${command.usage}\``, true)
+        .addField('Usage:', `\`${prefix}${command.usage}\``, true)
         .addField('Type', `\`${capitalize(command.type)}\``, true)
         .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
