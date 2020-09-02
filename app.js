@@ -1,6 +1,10 @@
 const config = require('./config.json');
 const Client = require('./src/Client.js');
 const { Intents } = require('discord.js');
+const YouTube = require('simple-youtube-api');
+const ytdl = require('ytdl-core');
+const moment = require('moment');
+require('moment-duration-format');
 
 global.__basedir = __dirname;
 

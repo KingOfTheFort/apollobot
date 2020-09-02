@@ -18,7 +18,7 @@ db.prepare(`
   CREATE TABLE IF NOT EXISTS settings (
     guild_id TEXT PRIMARY KEY,
     guild_name TEXT,
-    prefix TEXT DEFAULT "c!" NOT NULL,
+    prefix TEXT DEFAULT "!" NOT NULL,
     system_channel_id TEXT,
     modlog_channel_id TEXT,
     botlog_channel_id TEXT,
