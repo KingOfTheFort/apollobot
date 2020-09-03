@@ -41,9 +41,9 @@ module.exports = (client, message) => {
       const embed = new MessageEmbed()
         .setTitle('Apollo/Tagged')
         .setThumbnail('https://cdn.discordapp.com/icons/740991579342503936/9fedf3b4af21176bb9b400150b33ff14.webp?size=2048')
-        .setDescription(`You can see everything I can do by using the \`${prefix}help\` command.`)
+        .setDescription(`You can see everything the Apollo bot can do by using the \`${prefix}help\` command.`)
         .addField('Invite Apollo', oneLine`
-          You can add me to your server by clicking 
+          You can add Apollo Bot to your server by clicking 
           [here](https://discord.com/oauth2/authorize?client_id=749270794076422144&permissions=8&scope=bot).
         `)
         .addField('Support', oneLine`
