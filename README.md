@@ -9,6 +9,6 @@ Discord bot developed for the Apollo discord! Complete with over 100 commands an
 
 | Command | Description |
 | --- | --- |
-| admins | List all new or modified files |
+| admins | 'Sets the `administrator role` for your server. Provide no role to clear the current `administrator role`.' |
 | aliases | Show file differences that haven't been staged |
 | avatar | 
