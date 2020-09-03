@@ -39,7 +39,7 @@ module.exports = (client, message) => {
       message.channel.permissionsFor(message.guild.me).has(['SEND_MESSAGES', 'EMBED_LINKS'])
     ) {
       const embed = new MessageEmbed()
-        .setTitle('Apollo/Tagged')
+        .setTitle('Apollo / Tagged!')
         .setThumbnail('https://cdn.discordapp.com/icons/740991579342503936/9fedf3b4af21176bb9b400150b33ff14.webp?size=2048')
         .setDescription(`You can see everything the Apollo bot can do by using the \`${prefix}help\` command.`)
         .addField('Invite Apollo', oneLine`
