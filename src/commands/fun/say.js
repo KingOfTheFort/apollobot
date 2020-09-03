@@ -34,7 +34,10 @@ module.exports = class SayCommand extends Command {
     if (!channel.permissionsFor(message.member).has(['SEND_MESSAGES']))
       return this.sendErrorMessage(message, 0, 'You do not have permission to send messages in the provided channel');
 
-    const msg = message.content.slice(message.content.indexOf(args[0]), message.content.length);
+    var msg = message.content.slice(message.content.indexOf(args[0]), message.content.length);
+    if(msg.includes('<@') {
+      var msg = "Mention Blocked"
+    }
     channel.send(msg, { disableMentions: 'everyone' });
   } 
 };
