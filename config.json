@@ -1,0 +1,13 @@
+{
+  "token": "NzQ5MjcwNzk0MDc2NDIyMTQ0.X0pizg.IvatvXpSzsxxafylfrg3BNBLa3o",
+  "ownerId": "637125266241748995",
+  "bugReportChannelId": "bug_report_channel_ID_here",
+  "feedbackChannelId": "749347178073292811",
+  "serverLogChannelId": "server_log_channel_ID_here",
+  "googleKey": "864696618671-d74l672lejmiftudflk77m5shfcvj6rc.apps.googleusercontent.com",
+  "googlekey": "AIzaSyBiYlxahX3qYn_rfs3O5MTZ5npV-klu2yQ",
+  "apiKeys": {
+    "catApi": "your_API_key_here",
+    "googleApi": "your_API_key_here"
+  }
+}
