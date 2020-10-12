@@ -14,7 +14,7 @@ module.exports = class DogCommand extends Command {
   }
   async run(message) {
     try {
-      const img = https://placegoat.com/248/248;
+      const img = "https://placegoat.com/248/248";
       const embed = new MessageEmbed()
         .setTitle('Goat')
         .setImage(img)
